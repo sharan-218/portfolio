@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M56 0L56 0L56 56L0 56L0 0L56 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Solidity" clip-path="url(#clip_1)">
+    <path d="M56 0L56 0L56 56L0 56L0 0L56 0Z" id="Solidity" fill="none" stroke="none" />
+    <path d="M29.1667 17.5L21.5833 4.66667L14 17.5L29.1667 17.5Z" id="Polygon" fill="#1C1C1C" fill-rule="evenodd" stroke="none" />
+    <path d="M44.3333 17.5L36.75 4.66667L29.1667 17.5L44.3333 17.5Z" id="Polygon" fill="#666666" fill-rule="evenodd" stroke="none" />
+    <path d="M21.5833 4.66667L29.1667 17.5L36.75 4.66667L21.5833 4.66667Z" id="Polygon" fill="#383838" fill-rule="evenodd" stroke="none" />
+    <path d="M14 17.5L21.5833 30.3333L29.1667 17.5L14 17.5Z" id="Polygon" fill="#383838" fill-rule="evenodd" stroke="none" />
+    <path d="M29.1667 38.5L36.75 51.3333L44.3333 38.5L29.1667 38.5Z" id="Polygon" fill="#1C1C1C" fill-rule="evenodd" stroke="none" />
+    <path d="M14 38.5L21.5833 51.3333L29.1667 38.5L14 38.5Z" id="Polygon" fill="#666666" fill-rule="evenodd" stroke="none" />
+    <path d="M36.75 51.3333L29.1667 38.5L21.5833 51.3333L36.75 51.3333Z" id="Polygon" fill="#383838" fill-rule="evenodd" stroke="none" />
+    <path d="M44.3333 38.5L36.75 25.6667L29.1667 38.5L44.3333 38.5Z" id="Polygon" fill="#383838" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M48 0L48 0L48 48L0 48L0 0L48 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Firebase" clip-path="url(#clip_1)">
+    <path d="M48 0L48 0L48 48L0 48L0 0L48 0Z" id="Firebase" fill="none" stroke="none" />
+    <path d="M8 37L23.234 8.436C23.555 7.834 24.423 7.845 24.728 8.456L30 19L8 37L8 37Z" id="Shape" fill="#FF8F00" stroke="none" />
+    <path d="M8 36.992L13.546 2.793C13.691 1.898 14.893 1.704 15.313 2.508L26 22.992L8 36.992L8 36.992Z" id="Shape" fill="#FFA000" stroke="none" />
+    <path d="M8.008 36.986L8.208 36.829L25.737 22.488L20.793 13.012L8.008 36.986Z" id="Shape" fill="#FF6F00" stroke="none" />
+    <path d="M8 37L34.666 11.287C35.225 10.748 36.158 11.066 36.272 11.834L40 37L25 45.743C24.391 46.085 23.648 46.085 23.039 45.743L8 37L8 37Z" id="Shape" fill="#FFC400" stroke="none" />
+  </g>
+</svg>

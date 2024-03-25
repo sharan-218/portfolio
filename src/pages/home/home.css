@@ -1,0 +1,37 @@
+.hero-section {
+  width: clamp(350px, 100vw, 1080px);
+  min-height: 100vh;
+  margin: 0 auto;
+  background: url("../../assets/images/space-boy.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: visible;
+}
+.abstract {
+  width: 90%;
+  margin: 25vh auto;
+  padding: 0.75rem 1.5rem;
+}
+.secondary-title {
+  font-family: "M PLUS Code Latin", monospace;
+  line-height: 0.9;
+  font-size: 1.5rem;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(214, 213, 213),
+    rgb(255, 255, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#name {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(15deg, #848484, #fff0f0, #f0efef);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 400;
+}
+#st {
+  color: rgb(215, 214, 214);
+  font-weight: 200;
+}
