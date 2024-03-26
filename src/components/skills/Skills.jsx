@@ -39,7 +39,7 @@ const Skills = () => {
           </div>
           {/* <img src={Inkscape} alt="icon" /> */}
         </div>
-        <h2 style={{ margin: "1rem", textAlign: "center" }}>
+        <h2 style={{ margin: "1rem auto", textAlign: "center" }}>
           Frameworks and Libraries
         </h2>
         <div className="frame-works icons">
