@@ -11,10 +11,10 @@ const Contact = () => {
       <section className="contact-section" id="contact">
         <h2 className="contact-me">Contact me</h2>
         <div className="socials">
-          <a href="">
+          <a href="https://www.linkedin.com/in/sharan-kumar-986652258">
             <FaLinkedin />
           </a>
-          <a href="">
+          <a href="https://github.com/sharan-218">
             <FaGithub />
           </a>
           <a href="">
