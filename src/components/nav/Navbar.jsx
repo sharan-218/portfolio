@@ -21,14 +21,14 @@ const Navbar = () => {
         <li className="link">
           <a href="#contact">Contact</a>
         </li>
-        {/* <button
+        <button
           id="cv"
           onClick={() => {
-            open("../../../public/vite.svg");
+            open("/cv.png");
           }}
         >
           cv
-        </button> */}
+        </button>
         <span className="menu" onClick={() => setActive(!active)}>
           {active ? <IoIosArrowUp /> : <CiMenuBurger />}
         </span>

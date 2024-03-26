@@ -37,7 +37,6 @@ const Skills = () => {
             <img src={mdb} alt="icon" />
             <img src={eth} alt="icon" />
           </div>
-          {/* <img src={Inkscape} alt="icon" /> */}
         </div>
         <h2 style={{ margin: "1rem auto", textAlign: "center" }}>
           Frameworks and Libraries
