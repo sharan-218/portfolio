@@ -1,4 +1,4 @@
-.top-nav {
+.desktop-nav {
   width: 100%;
   height: 10vh;
   display: flex;
@@ -10,7 +10,7 @@
   position: sticky;
   top: 0;
   backdrop-filter: blur(1rem);
-  transition: all 0.2s ease;
+  /* transition: all 0.2s ease; */
 }
 li:hover {
   cursor: pointer;
@@ -19,7 +19,7 @@ li:hover {
 .mobile-nav {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -30,10 +30,9 @@ li:hover {
   position: sticky;
   top: 0;
   color: #c7c7c7;
-  transition: all 0.2s ease;
-  border-radius: 0 0 15% 15%;
+  /* transition: all 0.2s ease; */
+  border-radius: 0 0 5% 5%;
   border-bottom: 1px solid rgb(138, 132, 255);
-  box-shadow: inset 0px -2px 1rem 1px rgba(182, 178, 178, 0.781);
 }
 .menu {
   display: none;
@@ -44,7 +43,7 @@ li:hover {
   cursor: pointer;
 }
 @media (max-width: 720px) {
-  .top-nav li {
+  .desktop-nav li {
     display: none;
   }
   .menu {

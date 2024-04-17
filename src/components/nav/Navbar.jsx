@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <>
-      <ul className={active ? "mobile-nav" : "top-nav"}>
+      <ul className={active ? "mobile-nav" : "desktop-nav"}>
         <li className="link">
           <a href="#home">Home</a>
         </li>
