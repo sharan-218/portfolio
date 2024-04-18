@@ -1,11 +1,22 @@
 .hero-section {
   width: clamp(350px, 100vw, 1080px);
-  min-height: 100vh;
+  height: 100vh;
   margin: 0 auto;
   background: url("../../assets/images/space-boy.svg") no-repeat;
+  animation: scroll 0.1s linear ease;
+  animation-timeline: scroll(block);
   background-size: cover;
   background-position: center;
-  overflow: visible;
+  overflow: hidden;
+  position: relative;
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .abstract {
   width: 90%;

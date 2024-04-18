@@ -3,24 +3,13 @@ import "./home.css";
 import Navbar from "../../components/nav/Navbar";
 import About from "../about/About.jsx";
 import Contact from "../contact/Contact";
-import { motion } from "framer-motion";
+import BG from "../../assets/images/astronaut.svg";
 const Home = () => {
   return (
     <>
+      <Navbar />
       <section className="hero-section" id="home">
-        <Navbar />
-        <motion.div
-          className="abstract"
-          initial={{
-            opacity: 0,
-            animationDelay: 0.2,
-          }}
-          animate={{
-            opacity: 1,
-            animationDirection: "linear",
-            animationDuration: 10,
-          }}
-        >
+        <div className="abstract">
           <p className="secondary-title">Hello I'm</p>
           <h1 id="name">
             <strong>Sharan Kumar</strong>
@@ -30,7 +19,7 @@ const Home = () => {
               Front-End Developer | React & React Native | Blockchain
             </strong>
           </p>
-        </motion.div>
+        </div>
       </section>
       <About />
       <Contact />
