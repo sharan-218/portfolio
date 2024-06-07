@@ -3,7 +3,6 @@ import "./home.css";
 import Navbar from "../../components/nav/Navbar";
 import About from "../about/About.jsx";
 import Contact from "../contact/Contact";
-import BG from "../../assets/images/astronaut.svg";
 const Home = () => {
   return (
     <>

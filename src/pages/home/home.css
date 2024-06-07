@@ -3,19 +3,23 @@
   height: 100vh;
   margin: 0 auto;
   background: url("../../assets/images/space-boy.svg") no-repeat;
-  animation: scroll 0.1s linear ease;
-  animation-timeline: scroll(block);
   background-size: cover;
   background-position: center;
   overflow: hidden;
   position: relative;
+  animation-name: scrollScale;
+  animation-duration: 2ms;
+  animation-direction: alternate;
+  animation-timeline: scroll(block);
 }
-@keyframes scroll {
-  0% {
+@keyframes scrollScale {
+  from {
     opacity: 1;
+    scale: 1;
   }
-  100% {
-    opacity: 1;
+  to {
+    opacity: 0;
+    scale: 0.95;
   }
 }
 .abstract {
@@ -36,7 +40,8 @@
   -webkit-text-fill-color: transparent;
 }
 #name {
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  font-size: clamp(16px, 5rem, 60px);
   background: -webkit-linear-gradient(15deg, #848484, #fff0f0, #f0efef);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
