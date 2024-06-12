@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
+import Project from "../../components/project/Project.jsx";
 import Skills from "../../components/skills/Skills";
+import projects from "./projects.js";
 const About = () => {
   return (
     <>
@@ -21,6 +23,25 @@ const About = () => {
           <div className="a-right"></div>
         </div>
         <Skills />
+
+        <div className="project-wrapper">
+          <h1 id="projects-h1">Projects</h1>
+          <div className="projects">
+            {projects.map(
+              ({ title, technologies, description, source, image }, id) => {
+                return (
+                  <Project
+                    title={title}
+                    description={description}
+                    source={source}
+                    key={id}
+                    image={image}
+                  />
+                );
+              }
+            )}
+          </div>
+        </div>
       </section>
     </>
   );

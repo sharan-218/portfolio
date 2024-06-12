@@ -14,11 +14,6 @@ import eth from "../../assets/icons/Ethereum.svg";
 import mdb from "../../assets/icons/Mongodb.svg";
 import firebase from "../../assets/icons/Firebase.svg";
 const Skills = () => {
-  function genRandomValues() {
-    return Math.random() * 2;
-  }
-  let randomNumber = genRandomValues();
-  console.log(randomNumber);
   return (
     <>
       <div className="skills-card" id="skills">

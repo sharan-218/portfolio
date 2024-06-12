@@ -60,3 +60,15 @@
     transform: translate(-50, 0);
   }
 }
+.projects {
+  width: 90%;
+  margin: 2rem auto;
+  /* border: 2px solid yellow; */
+  height: 100%;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(22px, 1rem, 2rem);
+}

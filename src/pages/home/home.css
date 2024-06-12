@@ -19,7 +19,7 @@
   }
   to {
     opacity: 0;
-    scale: 0.95;
+    scale: 0.9;
   }
 }
 .abstract {
@@ -30,7 +30,7 @@
 .secondary-title {
   font-family: "M PLUS Code Latin", monospace;
   line-height: 0.9;
-  font-size: 1.5rem;
+  font-size: clamp(16px, 2.8vw, 30px);
   background: -webkit-linear-gradient(
     45deg,
     rgb(214, 213, 213),
@@ -41,11 +41,11 @@
 }
 #name {
   /* font-size: 3rem; */
-  font-size: clamp(16px, 5rem, 60px);
+  font-size: clamp(16px, 10vw, 55px);
   background: -webkit-linear-gradient(15deg, #848484, #fff0f0, #f0efef);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-weight: 400;
+  font-weight: 600;
 }
 #st {
   color: rgb(215, 214, 214);

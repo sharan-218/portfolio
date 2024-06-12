@@ -1,0 +1,86 @@
+.projectCard {
+  width: 40%;
+  height: clamp(100px, 320px, 420px);
+  background: #bcbcbc68;
+  backdrop-filter: blur(1rem);
+  position: relative;
+  border-radius: 12px;
+  transition: scale 0.3s ease;
+  box-shadow: 0px 2px 15px 2px rgba(109, 109, 109, 0.789);
+}
+.top {
+  border-radius: inherit;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.top img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: inherit;
+}
+.bottom {
+  width: 100%;
+  height: 30%;
+  background: #22242c;
+  transition: all 0.2s ease;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0.5rem 0.75rem;
+  border-radius: inherit;
+}
+.project-description,
+.project-source {
+  display: none;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+.project-description {
+  line-height: 1.25;
+  color: #d8d8d8;
+}
+.project-title {
+  font-size: clamp(16px, 22px, 28px);
+  text-align: center;
+  margin: 0.75rem auto;
+}
+.project-wrapper {
+  margin: 2rem auto;
+}
+#projects-h1 {
+  font-family: "Press Start 2P", system-ui;
+  text-align: center;
+}
+@media (max-width: 720px) {
+  .projectCard {
+    width: 100%;
+  }
+}
+.project-source {
+  position: relative;
+  margin: 1rem 0 0.5rem 0;
+  background-color: #42a5f5;
+  border-radius: 8px;
+  padding: 8px 15px;
+  display: inline-block;
+  width: fit-content;
+}
+.bottom:hover {
+  height: 100%;
+  background: #00000093;
+}
+.bottom:hover .project-description,
+.bottom:hover .project-source {
+  opacity: 1;
+  display: block;
+}
+
+.project-source:hover {
+  cursor: pointer;
+  background: #0089d2;
+  color: #e7e7e7;
+}
+.projectCard:not(.projectCard:hover) {
+  scale: 0.85;
+}
