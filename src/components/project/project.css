@@ -1,11 +1,11 @@
 .projectCard {
   width: 40%;
   height: clamp(100px, 320px, 420px);
-  background: #bcbcbc68;
+  background: #e5e5e5eb;
   backdrop-filter: blur(1rem);
   position: relative;
   border-radius: 12px;
-  transition: scale 0.3s ease;
+  transition: all 0.3s ease;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(113, 113, 125, 0.25) 0px 50px 100px -20px,
     rgba(112, 112, 112, 0.3) 0px 30px 60px -30px;
@@ -36,7 +36,7 @@
 .project-source {
   display: none;
   opacity: 0;
-  transition: all 0.2s ease;
+  transition: background 0.2s ease, height 0.2s ease;
 }
 .project-description {
   line-height: 1.25;
@@ -65,8 +65,9 @@
   background-color: #42a5f5;
   border-radius: 8px;
   padding: 8px 15px;
-  display: inline-block;
+  display: block;
   width: fit-content;
+  height: 44px;
 }
 .bottom:hover {
   height: 100%;

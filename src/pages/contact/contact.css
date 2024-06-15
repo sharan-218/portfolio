@@ -2,7 +2,7 @@
   width: 100%;
   position: relative;
   height: 100%;
-  overflow-x: visible;
+  overflow: visible;
 }
 .contact-me {
   text-align: center;
@@ -25,17 +25,4 @@
 }
 .email {
   text-align: center;
-}
-.bg {
-  position: absolute;
-  /* scale: 1.08; */
-  width: 74.3%;
-  aspect-ratio: 16 / 9;
-  top: -10%;
-  z-index: -1;
-  transform: translate(-55%, -100%);
-  /* bottom: 0; */
-  rotate: 90deg;
-  /* filter: drop-shadow(20px, 20px, 50px, red) invert(80%); */
-  filter: drop-shadow(0px 0px 5vh rgb(175, 171, 237));
 }
