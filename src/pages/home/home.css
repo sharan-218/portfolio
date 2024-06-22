@@ -8,8 +8,8 @@
   overflow: hidden;
   position: relative;
   animation-name: scrollScale;
-  animation-duration: 2ms;
-  animation-direction: alternate;
+  animation-delay: 100ms;
+  animation-timing-function: ease;
   animation-timeline: scroll(block);
 }
 @keyframes scrollScale {
@@ -18,8 +18,8 @@
     scale: 1;
   }
   to {
-    opacity: 0;
-    scale: 0.9;
+    opacity: 0.5;
+    scale: 0.78;
   }
 }
 .abstract {
@@ -45,9 +45,9 @@
   background: -webkit-linear-gradient(15deg, #848484, #fff0f0, #f0efef);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  font-weight: 600;
+  font-weight: 400;
 }
 #st {
-  color: rgb(215, 214, 214);
+  color: var(--secondary-text-color);
   font-weight: 200;
 }

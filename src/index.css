@@ -10,6 +10,23 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --link-color: #bb86fc;
+  --link-hover-color: #3700b3;
+  --border-color: #333333;
+  --card-bg-color: #1e1e1e;
+  --card-shadow-color: rgba(0, 0, 0, 0.7);
+  --input-bg-color: #2c2c2c;
+  --input-text-color: #ffffff;
+  --input-placeholder-color: #757575;
+  --navbar-bg-color: #1c1c1c;
+  --footer-bg-color: #181818;
+  --background-color: #121212;
+  --primary-text-color: #e0e0e0;
+  --secondary-text-color: #b0b0b0;
+  --accent-color: #bb86fc;
+  --accent-color-light: #ce93d8;
+  --button-bg-color: #1f1f1f;
+  --button-text-color: #ffffff;
 }
 
 * {
@@ -23,7 +40,7 @@ html {
 body {
   min-width: 350px;
   min-height: 100vh;
-  background: #0e0e0e;
+  background: var(--background-color);
   color: rgb(225, 222, 222);
   transition: all 0.2s ease;
 }

@@ -1,7 +1,7 @@
 .projectCard {
   width: 40%;
   height: clamp(100px, 320px, 420px);
-  background: #e5e5e5eb;
+  background: var(--card-bg-color);
   backdrop-filter: blur(1rem);
   position: relative;
   border-radius: 12px;
@@ -9,6 +9,7 @@
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(113, 113, 125, 0.25) 0px 50px 100px -20px,
     rgba(112, 112, 112, 0.3) 0px 30px 60px -30px;
+  border: 2px solid var(--border-color);
 }
 .top {
   border-radius: inherit;
@@ -40,11 +41,12 @@
 }
 .project-description {
   line-height: 1.25;
-  color: #d8d8d8;
+  color: var(--secondary-text-color);
 }
 .project-title {
   font-size: clamp(16px, 22px, 28px);
   text-align: center;
+  color: var(--primary-text-color);
   margin: 0.75rem auto;
 }
 .project-wrapper {
@@ -62,7 +64,7 @@
 .project-source {
   position: relative;
   margin: 1rem 0 0.5rem 0;
-  background-color: #42a5f5;
+  background-color: var(--accent-color);
   border-radius: 8px;
   padding: 8px 15px;
   display: block;
@@ -81,7 +83,7 @@
 
 .project-source:hover {
   cursor: pointer;
-  background: #0089d2;
+  background: var(--accent-color-light);
   color: #e7e7e7;
 }
 .projectCard:not(.projectCard:hover) {

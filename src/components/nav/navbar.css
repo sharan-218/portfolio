@@ -4,18 +4,18 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: #d4d4d4;
+  color: var(--secondary-text-color);
   font-family: "Poppins", sans-serif;
   font-size: 1.12rem;
   position: sticky;
   top: 0;
   backdrop-filter: blur(1rem);
-  border-bottom: 1px solid #babed2;
+  border-bottom: 2px solid var(--border-color);
   z-index: 1;
 }
 li:hover {
   cursor: pointer;
-  color: #ffffff;
+  color: var(--primary-text-color);
 }
 .mobile-nav {
   position: sticky;
@@ -59,14 +59,15 @@ li:hover {
   font-weight: 600;
   border: 1px solid #fff;
   color: #fff;
-  background: transparent;
+  background: var(--button-bg-color);
   font-family: "Poppins", sans-serif;
   box-shadow: 0 0 15px 3px rgb(153, 169, 240);
   position: relative;
   transition: all1s ease 0.2s;
 }
 #cv:hover {
-  background: rgb(23, 119, 236);
+  color: var(--button-text-color);
+  cursor: pointer;
 }
 
 /* #cv:hover {
